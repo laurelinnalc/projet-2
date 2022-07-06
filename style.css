@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'Raleway' ;
+  src: url('/fonts/Raleway-VariableFont_wght.ttf');
+}
+
+body {
+  font-family: 'Raleway';
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+
+h1 {
+  font-weight: blod;
+  font-size: 25px;
+}
+
+.logo {
+  margin-left: 45px;
+}
+
+ul {
+
+  list-style-type: none;
+  display: flex; 
+justify-content: flex-end;
+  
+
+
+}*/
+
+
+
+span {
+  color: #0065fc;
+  font-weight: bold;
+}
+
+
+.blocprincipal {
+  background-color: rgb(12, 9, 236);
+  display: flex;
+}
+
+.bloc1-a {
+  background-color: pink;
+
+}
+
+.bloc1-b {
+  background-color: rgb(92, 221, 204);
+}
+
+.bloc1-c {
+  background-color: rgb(214, 76, 76);
+}
+
+
+.bloc2 {
+    background-color: rgb(81, 201, 51);
+
+   display: flex;
+   flex-direction: row; 
+  flex-wrap: wrap;
+   row-gap: 50px;
+   column-gap: 50px;
+   flex: 3;
+   
+} 
+
+aside {
+  background-color: yellow;
+  /*width: 100vw;*/
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  justify-content: space-evenly;
+  flex: 1;
+
+
+}
+
+aside > div { /*petits blocs populaires*/
+   /* width: 120vw; */
+   align-self: center;
+    height: 120px;
+    width: 220px;
+
+}
+
+.bloc { /*petits blocs hébergements*/
+   /* width: 100vw; */
+    height: 190px;
+    width: 190px;
+
+
+}
+
+.bloc.bloc2-a {
+    background-color: rgb(238, 161, 221);
+
+}
+
+.bloc2-b {
+    background-color: rgb(99, 12, 80);
+    
+}
+
+.bloc2-c {
+    background-color: rgb(74, 110, 177);
+}
+
+.bloc2-d {
+    background-color: rgb(125, 202, 179);
+
+}
+
+.bloc2-e {
+    background-color: rgb(230, 158, 24);
+
+}
+
+.bloc2-f {
+    background-color: rgb(238, 161, 221);
+}
+
+.filtres__btnbox {
+  display: flex;
+  justify-content: space-around;
+}
+/*@media screen and { min-width: ;
+    
+}*/
