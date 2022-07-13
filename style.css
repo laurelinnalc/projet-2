@@ -309,13 +309,16 @@ aside > div { /*petits blocs populaires*/
   height: 300px;
   border-radius: 20px 20px 0 0;
   display: block;
+  object-fit: cover;
 }
 
-.imagemedium {
-  height: 200px;
+.imagemedium { 
+  object-fit: cover;
+  height: 200px;  
   width: 100%;
   border-radius: 20px 20px 0 0;
   display: block;
+
 }
 
 .imagesmall {
@@ -323,6 +326,7 @@ aside > div { /*petits blocs populaires*/
   width: 100%;
   border-radius: 20px 20px 0 0;
   display: block;
+  object-fit: cover;
 }
 
 figure {
