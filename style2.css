@@ -1,5 +1,5 @@
 section {
-    background-color: hwb(0 0% 23%);
+    background-color: none;
     border-radius: 20px;
 
 }
@@ -12,9 +12,8 @@ section {
 }
 
 .titre_bloc1 {
-    background-color: aquamarine;
+    background-color: #f2f2f2;
     border-radius: 20px;
-    padding-bottom: 40px;
 }
 
 .blocenfant {
@@ -30,8 +29,9 @@ section {
     width: 250px;
 }
 .blocenfant:hover {
-background-color: rgb(234, 0, 255);
+    box-shadow: 0 0 40px lightgrey
 }
+
 .blocparent2 {
     display: flex;
 flex-wrap: wrap;
@@ -42,12 +42,18 @@ align-content: center;
 
 object-fit: cover;
 border-radius: 20px 20px 0 0;
-height: 150px;
+height: 120px;
 width: 250px;
 
 }
 
+.blocinfos {
+    padding-left: 10px;
+}
 
+.blocinfos h3, p {
+    line-height: 5px;
+}
 
 .moreinfo {
     margin-left: 20px;
@@ -61,6 +67,19 @@ h3 {
 p {
     font-size: small;
 }
+
+section .fa-solid.fa-star {
+    color: #0065FC;
+}
+
+section .fa-solid.fa-star.main {
+    color: black;
+}
+
+section .fa-solid.fa-star.unselected {
+    color: #f2f2f2;
+}
+
   /*BLOC POPULAIRE*/
 
 .blocmajeur {
@@ -68,6 +87,7 @@ p {
     justify-content: flex-start;
 
 }
+
 
 .blocparent_populaire {
     display: flex;
@@ -100,7 +120,7 @@ width: 150px;
 }
 
 .titre_bloc2 {
-    background-color: blue;
+    background-color: #f2f2f2;
     padding-right: 25px;
     border-radius: 20px;
     margin-left: 40px;
@@ -108,6 +128,9 @@ width: 150px;
 
 .blocparent_populaire2.bloc2 {
     margin-bottom: 40px;
+}
+.blocparent_populaire2:hover {
+    box-shadow: 0 0 40px lightgrey;
 }
 
 .blocparent_populaire2.bloc1 {
@@ -118,4 +141,9 @@ width: 150px;
 h2 {
     margin-left: 25px;
     padding-top: 30px;
+}
+
+.blocinfos_populaire {
+    padding-left: 20px;
+    padding-right: 10px;
 }
