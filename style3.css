@@ -185,13 +185,13 @@
     flex-wrap: wrap;
     flex-direction: row;
     background-color: #ffffff;
-    margin: 20px;
+    margin: 15px;
     border-radius: 20px;
 
     cursor: pointer;
-    padding: 5px 5px 5px 5px;
-    width: 168px;
-    height: 136px;
+    padding: 3px 3px 3px 3px;
+    width: 176px;
+    height: 176px;
 }
 .blocenfant:hover {
     box-shadow: 0 0 40px lightgrey
@@ -206,8 +206,8 @@ align-content: center;
 .blocimage {
 
 object-fit: cover;
-border-radius: 20px 20px 0 0;
-height: 80px;
+border-radius: 15px 15px 0 0;
+height: 96px;
 width: 200px;
 
 }
@@ -216,6 +216,26 @@ width: 200px;
     padding-left: 10px;
 }
 
+.blocinfos h3{
+  padding-bottom: 4px;
+}
+
+.blocinfos p{
+  padding-bottom: 5px;
+}
+
+.blocinfos_populaire {
+  width: 176px;
+  height: 110px;
+}
+
+.blocinfos_populaire h3 {
+  font-size: small;
+}
+
+.blocinfos_populaire p {
+  font-size: x-small;
+}
 
 
 .moreinfo {
@@ -223,11 +243,16 @@ width: 200px;
     font-weight: bold;
 }
 
-h3 {
+.moreinfo p {
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.blocenfant h3 {
     font-size: small;
 }
 
-p {
+.blocenfant p {
     font-size: x-small;
 }
 
@@ -268,7 +293,7 @@ section .fa-solid.fa-star.unselected {
     background-color: #ffffff;
     height: 120px;
     width: 70%;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 5px 5px 5px 5px;
     cursor: pointer;
 }
@@ -281,7 +306,7 @@ aside {
 
 .blocimage_populaire {
 object-fit: cover;
-border-radius: 20px 0px 0 20px;
+border-radius: 15px 0px 0 15px;
 height: 110px;
 width: 94px;
 }
@@ -342,7 +367,7 @@ h2 {
 
 .imagelarge {
   width: 100%;
-  height: 300px;
+  height: 361px;
   border-radius: 20px 20px 0 0;
   display: block;
   object-fit: cover;
@@ -382,7 +407,7 @@ figcaption {
   background: white;
   border-radius: 0 0 20px 20px;
   text-align: end;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   
 }
 
