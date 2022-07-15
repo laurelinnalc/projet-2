@@ -29,6 +29,11 @@
     width: 110px;
     height: 50px;
     margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .active_page {
+    border-top: 3px solid #0065FC;
   }
   
   .fas.fa-info {
@@ -50,7 +55,9 @@
     
   } 
   .info p {
-    margin-top: -10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: smaller;
   }
   
   .searchbox {
@@ -65,6 +72,10 @@
    padding-left: 15px;
    border-radius: 15px 0px 0px 15px;
   
+  }
+
+  .fa-solid.fa-location-dot {
+    height: 39px;
   }
   
   .searchbox__btn {
@@ -85,7 +96,14 @@
     border-bottom: 1px solid #F2F2F2;
     padding-bottom: 0;
     padding-top: 0;
-    
+    margin-right: 0;
+    width: 165px;
+  }
+
+  input#champ_adresse.searchbox__input{
+    padding-left: 12px;
+    font-size: small;
+    font-weight: bold;
   }
   
   .navigation ul {
@@ -93,13 +111,22 @@
     display: flex;
   
   }
+
+  nav ul {
+    margin-top: 0;
+  }
   
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
   .filtres ul li i {
-    height: 46px;
-    width: 46px;
+    height: 38px;
+    width: 38px;
     text-align: center;
     background-color: #DEEBFF;
-    padding: 15px;
+    padding: 12px;
     border-radius: 25px;
     margin-right: 10px;
   }
@@ -111,7 +138,12 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 10px;
   
+  }
+
+  .filtres p {
+    font-size: smaller;
   }
   
   .navigation ul li { /*du plus grand au plus petit*/
@@ -123,8 +155,7 @@
   
   .filtres ul {
     list-style-type: none;
-  
-    
+    padding-left: 0; 
   }
   
   .filtres ul li {
@@ -142,6 +173,20 @@
     cursor: pointer;
     font-size: small;
   }
+
+  .filtres ul li.list1{
+    margin-right: -6px;
+  }
+
+  .filtres ul li.list2{
+    margin-right: -6px;
+  }
+
+  .filtres ul li.list3{
+    margin-right: -6px;
+  }
+
+
   .filtres ul li:hover {
     box-shadow: 0 0 50px #F2F2F2;
   }
@@ -155,6 +200,15 @@
     justify-content: flex-end;
     align-items: center;
   
+  }
+
+  .infologement {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .infologement p {
+    font-size: smaller;
   }
 
 
@@ -331,6 +385,14 @@ width: 94px;
     margin-bottom: 40px;
 }
 
+.stars {
+margin-top: 40px;
+}
+
+i.fa-solid.fa-solid.fa-star.main {
+  margin-left: 40px;
+}
+
 h2 {
     margin-left: 25px;
     padding-top: 30px;
@@ -347,7 +409,7 @@ h2 {
 /*3EME PARTIE*/
 
 #pageactivites {
-  margin-top: 200px;
+  margin-top: 30px;
   border-radius: 30px;
   height: 560px;
 }
@@ -418,8 +480,12 @@ figcaption h4{
   list-style-type: none;
   text-decoration: none;
   color: black;
+  margin-top: 9px;
+  margin-bottom: 11px;
 }
-
+ figcaption.gap {
+  margin-bottom: 17px;
+ }
 
 
 
