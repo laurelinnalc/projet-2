@@ -23,6 +23,7 @@
   header {
     display: flex;
     justify-content: space-between;
+    width: 100%;
   }
   
   .logo {
@@ -65,6 +66,10 @@
     justify-content: flex-start;
     align-items: stretch;
   }
+
+  .mobilefirst_search {
+    display: none;
+  }
   
   .fa-location-dot {
    background-color: #F2F2F2;
@@ -86,7 +91,7 @@
     padding: 10px; 
     padding-left: 10px;
     border-radius: 0px 15px 15px 0px;
-    
+    cursor: pointer;
   }
   
   .searchbox__input {
@@ -188,7 +193,7 @@
 
 
   .filtres ul li:hover {
-    box-shadow: 0 0 50px #F2F2F2;
+    box-shadow: 0 0 50px lightgray;
   }
   
   .filtres .fa-solid { 
@@ -270,6 +275,8 @@ width: 200px;
     padding-left: 10px;
 }
 
+
+
 .blocinfos h3{
   padding-bottom: 4px;
 }
@@ -281,6 +288,10 @@ width: 200px;
 .blocinfos_populaire {
   width: 176px;
   height: 110px;
+}
+
+.blocinfos_populaire:hover {
+  color: #0065FC;
 }
 
 .blocinfos_populaire h3 {
@@ -305,6 +316,10 @@ width: 200px;
 .blocenfant h3 {
     font-size: small;
 }
+
+.blocenfant:hover {
+  color: #0065FC;
+} 
 
 .blocenfant p {
     font-size: x-small;
@@ -331,6 +346,10 @@ section .fa-solid.fa-star.unselected {
     display: flex;
     justify-content: flex-start;
 
+}
+
+.blocmajeur span {
+  font-weight: bold;
 }
 
 
@@ -423,7 +442,7 @@ h2 {
 
 .activities_blocenfant {
   width: 25%;
-  padding-left: 10px;
+  padding-left: 26px;
 
 }
 
@@ -461,8 +480,10 @@ figure {
 }
 
 figure:hover {
-  box-shadow: 0 0 40px grey
+  box-shadow: 0 0 40px grey;
 }
+
+
 
 figcaption {
 
@@ -472,6 +493,7 @@ figcaption {
   padding-bottom: 10px;
   
 }
+
 
 figcaption h4{
   display: flex;
@@ -483,11 +505,14 @@ figcaption h4{
   margin-top: 9px;
   margin-bottom: 11px;
 }
+
+figure, figcaption h4:hover {
+  color: #0065FC;
+}
+
  figcaption.gap {
   margin-bottom: 17px;
  }
-
-
 
 
 
@@ -511,16 +536,26 @@ figcaption h4{
   
   .footer_element {
     width: 33%;
+    text-decoration: none;
   }
+  
   
   .footer_element li {
     padding: 5px;
+    cursor: pointer; 
   }
   
+.footer_element li:hover {
+  text-decoration: underline;
+
+}
+
   .footer_element h4{
     padding-top: 15px;
     padding-left: 3px;
   }
+
+      /*RESPONSIVE*/
 
 
   @media screen and (max-width: 777px) {
@@ -530,8 +565,19 @@ figcaption h4{
 
      .blocmajeur {
       flex-direction: column-reverse;
+      width: 100%;
      }
 
+     .blocparent {
+      flex-direction: column;
+     }
 
+     .logo {
+      display: flex;
+      align-items: center; /*ne marche pas */
+     }
 
+     .filtres ul li {
+      flex-direction: column; /*ne marche pas*/
+     }
   }
