@@ -208,6 +208,8 @@ p {
     border-radius: 25px;
     box-shadow: 0 0 15px lightgray;
     padding: 6px;
+    transform: scale(1);
+    transition: transform 2s;
   }
 
   .title_item {
@@ -236,6 +238,7 @@ p {
   .item:hover {
     color: #0065FC;
     box-shadow: 0 0 40px grey; 
+    transform: scale(1.1);
   }
 
   /*HÉBERGEMENT MARSEILLE CONTENT*/
