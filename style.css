@@ -19,7 +19,7 @@ a {
 
 /*SAME PROPERTIES */
 
-h1,h2,.searchbox-research,.searchbox-input,.filter_title,.filter_text_button,.hebergement-marseille_moreinfo,.borderblue{
+h1,h2,.searchbox-research,.searchbox-input,.filter_title,.filter_text_button,.hebergement-marseille_moreinfo{
     font-weight: bold;
 }
 
@@ -152,7 +152,7 @@ p {
     cursor: pointer;
   }
   .filter_btn:hover {
-    box-shadow: 0px 0px 30px lightgray;
+    box-shadow: 4px 10px 6px #5f5d5d2e;
   }
   .filter_icon {
     position: relative;
@@ -206,10 +206,10 @@ p {
   .item {
     background-color: #ffffff;
     border-radius: 25px;
-    box-shadow: 0 0 15px lightgray;
+    box-shadow: 4px 5px 6px #0000002E;
     padding: 6px;
     transform: scale(1);
-    transition: transform 2s;
+    transition: transform 250ms;
   }
 
   .title_item {
@@ -237,7 +237,7 @@ p {
 
   .item:hover {
     color: #0065FC;
-    box-shadow: 0 0 40px grey; 
+    box-shadow: 4px 5px 6px #0000002E; 
     transform: scale(1.1);
   }
 
